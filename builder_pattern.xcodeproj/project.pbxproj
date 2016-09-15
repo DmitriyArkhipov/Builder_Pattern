@@ -21,6 +21,7 @@
 		810291FB1D6451C400F4DE14 /* Baker.m in Sources */ = {isa = PBXBuildFile; fileRef = 810291FA1D6451C300F4DE14 /* Baker.m */; };
 		810291FF1D64613E00F4DE14 /* RyeBreadBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 810291FE1D64613E00F4DE14 /* RyeBreadBuilder.m */; };
 		810292071D648F1300F4DE14 /* WheatBreadBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 810292061D648F1300F4DE14 /* WheatBreadBuilder.m */; };
+		81FCF8181D8B0E7A00A808BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 81FCF8171D8B0E7A00A808BB /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		810291FE1D64613E00F4DE14 /* RyeBreadBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RyeBreadBuilder.m; sourceTree = "<group>"; };
 		810292051D648F1300F4DE14 /* WheatBreadBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheatBreadBuilder.h; sourceTree = "<group>"; };
 		810292061D648F1300F4DE14 /* WheatBreadBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheatBreadBuilder.m; sourceTree = "<group>"; };
+		81FCF8171D8B0E7A00A808BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		810291C11D640C6000F4DE14 = {
 			isa = PBXGroup;
 			children = (
+				81FCF8171D8B0E7A00A808BB /* LICENSE */,
 				810291CC1D640C6000F4DE14 /* builder_pattern */,
 				810291CB1D640C6000F4DE14 /* Products */,
 			);
@@ -226,6 +229,7 @@
 			files = (
 				810291DD1D640C6000F4DE14 /* LaunchScreen.storyboard in Resources */,
 				810291DA1D640C6000F4DE14 /* Assets.xcassets in Resources */,
+				81FCF8181D8B0E7A00A808BB /* LICENSE in Resources */,
 				810291D81D640C6000F4DE14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +402,7 @@
 				810291E31D640C6000F4DE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
