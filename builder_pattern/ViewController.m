@@ -10,6 +10,7 @@
 
 #import "Baker.h"
 #import "RyeBreadBuilder.h"
+#import "WheatBreadBuilder.h"
 
 @interface ViewController ()
 
@@ -23,11 +24,23 @@
     
     Baker *baker = [[Baker alloc] init];
     
+    NSLog(@"RyeBreadBuilder result product");
+    
     BreadBuilder *builder = [[RyeBreadBuilder alloc] init];
     
     [baker bakeWithBuilder:builder];
     
     Bread *resultBread = [builder getResult];
+    
+    [resultBread getProductInfo];
+    
+    NSLog(@"WheatBreadBuilder result product");
+    
+    
+    BreadBuilder *builder2 = [[WheatBreadBuilder alloc] init];
+    [baker bakeWithBuilder:builder2];
+    
+    resultBread =[builder2 getResult];
     
     [resultBread getProductInfo];
     
